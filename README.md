@@ -43,10 +43,9 @@ The dataset contains Bundesliga player information such as:
 
 ## Project Structure
 bundesliga-players-mongodb/
-│
-├── data/
-├── notebooks/
-│ └── db_bundesliga_players.ipynb
+- data/
+    -- notebooks/
+         ---db_bundesliga_players.ipynb
 │
 ├── src/
 │ ├── db.py
