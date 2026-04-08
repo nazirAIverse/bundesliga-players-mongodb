@@ -42,21 +42,25 @@ The dataset contains Bundesliga player information such as:
 ---
 
 ## Project Structure
+
+```
 bundesliga-players-mongodb/
-- data/
-    -- notebooks/
-         ---db_bundesliga_players.ipynb
+│
+├── data/
+├── notebooks/
+│   └── db_bundesliga_players.ipynb
 │
 ├── src/
-│ ├── db.py
-│ ├── cleaning.py
-│ ├── models.py
-│ ├── seed.py
-│ └── queries.py
+│   ├── db.py          # database connection
+│   ├── cleaning.py    # data preprocessing
+│   ├── models.py      # MongoEngine models
+│   ├── seed.py        # insert data into MongoDB
+│   └── queries.py     # query & CRUD operations
 │
-├── docker-compose.yml
-├── requirements.txt
+├── docker-compose.yml # MongoDB setup
+├── requirements.txt   # dependencies
 └── README.md
+```
 
 ---
 
